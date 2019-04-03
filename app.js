@@ -7,7 +7,7 @@ const  cake=require('./routes/cake.js');
 const shop_car=require('./routes/shop_car.js');
 //创建web服务器
 var server=express();
-var app=server.listen(3000);
+var app=server.listen(5050);
 //托管静态资源到xm
 server.use(express.static('xm'));
 //配置中间件
